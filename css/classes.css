@@ -1,0 +1,47 @@
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex ;
+}
+
+.btn{
+
+    
+    width: 170px;
+    height: 48px;
+    border-radius: 3px;
+
+    outline: none;
+    
+    cursor: pointer;
+    
+}
+
+.btn-red{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+   
+    background-color: #FF564F;
+    color: var(--white); 
+}
