@@ -1,6 +1,7 @@
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
+    border: 2px solid red;
 }
 
 .col-6{
@@ -44,4 +45,30 @@
    
     background-color: #FF564F;
     color: var(--white); 
+}
+
+.title-black{
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    
+
+    text-transform: uppercase;
+
+    color: var(--textBlack);
+}
+
+.title-light{
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    
+
+    text-transform: uppercase;
+
+    color: var(--white);
 }

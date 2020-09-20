@@ -1,15 +1,35 @@
-.advantages__title{
-    font-family: Inknut Antiqua;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 64px;
+.advantages__content{
+    margin-top: 150px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.col__img{
+    padding: 0 0 0 0 ;
+    position: relative;
+}
+
+
+.img__boy{
     
 
-    text-transform: uppercase;
-
-    color: var(--textBlack);
 }
+
+.col__text{
+   padding: 83px 128px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .advantages__subtitle{
     font-family: Roboto Condensed;
@@ -17,7 +37,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    /* identical to box height, or 200% */
+    
 
     letter-spacing: 3px;
     text-transform: uppercase;
