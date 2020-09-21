@@ -72,3 +72,7 @@
 
     color: var(--white);
 }
+
+.list-style {
+    list-style: none;
+}

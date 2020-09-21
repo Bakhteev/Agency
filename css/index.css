@@ -2,7 +2,9 @@
 @import "classes.css";
 @import "var.css";
 @import "fonts.css";
-
+@import "components/header.css";
+@import "components/hero.css";
 @import "components/advantage.css";
 @import "components/feautures.css";
+@import "components/reviews.css";
 @import "slick.css";
