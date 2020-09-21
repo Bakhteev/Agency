@@ -5,9 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inknut+Antiqua:wght@900&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>Agency</title>
 </head>
 <body>
     
+    <header class="header">
+        <div class="container">
+            <div class="header__row row">
+                <a href="#" class="header__logo logo">Agency</a>
+                <nav class="header__nav flex">
+                    <ul class="nav__menu flex">
+                        <li class="nav__item"><a class="nav__link" href="">About</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">Portfolio</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__contant">
+                <h1 class="hero__title">We Create Amazing Sites With Ease</h1>
+                <img class="hero__icon" src="img/hero/Object.png" alt="">
+                <p class="hero__subtitle">A peep at some distant orb has power to raise and purify</p>
+                <div class="sliders">
+                    <div class="boy">
+                        <img class="hero__boy" src="img/hero/boy.png" alt="">
+                    </div>
+                    <div class="boy">
+                        <img class="hero__boy" src="img/hero/boy.png" alt="">
+                    </div>
+                </div>
+                <img class="hero__points" src="img/hero/Combined Shape.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="reviews">
+        <div class="container">
+            <div class="reviews__contant">
+                <h2 class="reviews__title">What Our Clients Say</h2>
+                <p class="reviews__subtitle">Testimonials</p>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+    $('.sliders').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    </script>
+
+    <!-- <script>
+        $('.center').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+            }
+        ]
+        });
+    </script> -->
+
 </body>
 </html>
