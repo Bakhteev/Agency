@@ -1,0 +1,22 @@
+.header {
+    background-color: #111111;
+}
+
+.header__row {
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.nav__item {
+    padding-right:65px;
+}
+
+.nav__link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color:white;
+}
+
