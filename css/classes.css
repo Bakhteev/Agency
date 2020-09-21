@@ -1,28 +1,74 @@
 .container{
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
+    /* border: 2px solid red; */
 }
 
-.btn-red{
-
+.col-6{
+    width: 50%;
 }
 
-.row {
+.row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex {
-    display: flex;
+.flex{
+    display: flex ;
 }
 
-.logo {
-    font-family: 'Roboto Condensed';
-    color: #fff;
+.btn{
+
+    
+    width: 170px;
+    height: 48px;
+    border-radius: 3px;
+
+    outline: none;
+    
+    cursor: pointer;
+    
+}
+
+.btn-red{
+    font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    text-align: center;
+    letter-spacing: 1px;
     text-transform: uppercase;
+
+   
+    background-color: #FF564F;
+    color: var(--white); 
 }
 
+.title-black{
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    
+
+    text-transform: uppercase;
+
+    color: var(--textBlack);
+}
+
+.title-light{
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    
+
+    text-transform: uppercase;
+
+    color: var(--white);
+}

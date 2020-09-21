@@ -1,0 +1,60 @@
+.advantages__content{
+    margin-top: 150px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.col__img{
+    
+    position: relative;
+}
+
+.dots-top{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.dots-bottom{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.img__boy{
+    
+
+}
+
+.col__text{
+   padding: 83px 128px 0 0;
+}
+
+
+.advantages__subtitle{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+
+.advantages__description{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    
+
+
+    color: rgba(17, 17, 17, 0.50133);
+    }
