@@ -1,7 +1,7 @@
 .container{
     max-width: 1170px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .col-6{

@@ -6,8 +6,20 @@
 }
 
 .col__img{
-    padding: 0 0 0 0 ;
+    
     position: relative;
+}
+
+.dots-top{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.dots-bottom{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
 }
 
 
@@ -19,16 +31,6 @@
 .col__text{
    padding: 83px 128px 0 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .advantages__subtitle{
