@@ -1,0 +1,21 @@
+.project{
+    height: 768px;
+}
+
+.project__description{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+
+    color: rgba(17, 17, 17, 0.50133);
+}
+
+.line{
+    width: 1170px;
+    height: 2px;
+    background-color: #000;
+}
