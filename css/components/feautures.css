@@ -72,13 +72,13 @@
     color: rgba(255, 255, 255, 0.502972);
 }
 
-.slick-prev.slick-arrow{
-    display: none !important;
+.feautures .container  
+.slick-prev.slick-arrow,
+.feautures .container
+.slick-next.slick-arrow{
+    display: none !important ;
 }
 
-.slick-next.slick-arrow{
-    display: none !important;
-}
 
 .slick-dots{
     position: absolute;
@@ -105,3 +105,6 @@
     color: #9013FE;;
 }
 
+.slick-slide{
+    outline: none;
+}
