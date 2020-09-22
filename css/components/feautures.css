@@ -1,5 +1,4 @@
 .feautures{
-    margin-top: 163px;
     height: 1080px;
     background: #111111;
 }
@@ -80,7 +79,7 @@
 }
 
 
-.slick-dots{
+.feautures .slick-dots{
     position: absolute;
     transform: translateX(-25%);
     left: 50%;
@@ -90,6 +89,7 @@
     cursor: pointer;
 }
 
+.features 
 #slick-slide-control00,
 #slick-slide-control01,
 #slick-slide-control02,
@@ -101,10 +101,10 @@
     padding: 0 17px 0 17px;
 }
 
-.slick-active{
-    color: #9013FE;;
+.feautures .slick-active{
+    color: #9013FE;
 }
 
-.slick-slide{
+.feautures .slick-slide{
     outline: none;
 }
