@@ -30,19 +30,6 @@
 }
 
 .btn{
-
-    
-    width: 170px;
-    height: 48px;
-    border-radius: 3px;
-
-    outline: none;
-    
-    cursor: pointer;
-    
-}
-
-.btn-red{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
@@ -53,6 +40,23 @@
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
+
+    
+    width: 170px;
+    height: 48px;
+    border-radius: 3px;
+
+    outline: none;
+    border: none;
+    
+    cursor: pointer;
+    background-color: var(--white);
+
+    
+}
+
+.btn-red{
+  
 
    
     background-color: #FF564F;

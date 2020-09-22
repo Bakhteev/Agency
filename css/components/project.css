@@ -19,3 +19,35 @@
     height: 2px;
     background-color: #000;
 }
+
+.side-bar__ul{
+    list-style: none;
+}
+
+.yellow{
+    background-color: #F8E71C;
+}
+
+.red{
+   background-color:#FF564F;
+}
+
+.items__tittle{
+    font-size: 40px;
+    line-height: 48px;  
+}
+
+.items__subtitle{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--textBlack);
+}
+
