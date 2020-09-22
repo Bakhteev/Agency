@@ -8,18 +8,23 @@
     width: 33.33%;  
 }
 
+.col-4{
+    width: 33.33%;
+}
+
 .col-6{
     width: 50%;
 }
 
+
+.col-4 {
+    width: 33.33%;
 .col-8{
     width: 66.66%;
 }
-
 .col-12{
     width: 100%;
 }
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -87,4 +92,8 @@
     text-transform: uppercase;
 
     color: var(--white);
+}
+
+.list-style {
+    list-style: none;
 }
