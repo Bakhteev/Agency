@@ -1,14 +1,21 @@
-.project{
-    height: 768px;
+
+.project__content{
+     margin-top: 73px;
+}
+
+.project__title{
+    padding: 135px 228px 135px 0;
 }
 
 .project__description{
+    padding: 121px 0 133px 0;
+
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    /* or 200% */
+
 
 
     color: rgba(17, 17, 17, 0.50133);
@@ -17,19 +24,78 @@
 .line{
     width: 1170px;
     height: 2px;
-    background-color: #000;
+    background-color: #111111;
+}
+
+.side-bar{
+    margin: 0 130px 0 0  ;
+}
+
+
+.sidebar__title{
+    margin-bottom: 37px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+ 
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--textBlack);
 }
 
 .side-bar__ul{
     list-style: none;
 }
 
+.side-bar__item{
+    width: 170px;
+    height: 48px;
+
+    margin-bottom: 25px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    transition:  .3s;
+  
+
+}
+
+.side-bar__link{
+    transition: .3s;
+}
+
+.side-bar__item:hover{
+    color: var(--white);
+    background-color: var(--textBlack);
+}
+
+.side-bar__item:hover .side-bar__link{
+    color: var(--white) ;
+    padding-left: 16px;
+}
+
+
 .yellow{
+    margin: 0 0 45px 0;
     background-color: #F8E71C;
 }
 
 .red{
    background-color:#FF564F;
+   margin: 0 0 80px 0;
+}
+
+.col__item{
+    position: relative;
+    max-height: 416px;
 }
 
 .items__tittle{
@@ -51,40 +117,15 @@
     color: var(--textBlack);
 }
 
-.sidebar__title{
-    font-family: Roboto Condensed;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
- 
 
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    color: var(--textBlack);
+.items__dog{
+    padding: 0 0 0 383px;
+    transform: translateY(-134px);
 }
 
-.side-bar__item{
-    width: 170px;
-
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    transition: translateX 0.3s;
-  
-
+.items__girl{
+  padding: 0 0 0 308px;
+  transform: translateY(-98px); 
 }
 
-.side-bar__item:hover{
-    color: var(--white);
-    background-color: var(--textBlack);
-}
-
-.side-bar__item:hover a{
-    color: var(--white) ;
-    transform: translateX(16px);
-}
 

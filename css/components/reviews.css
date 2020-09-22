@@ -1,4 +1,78 @@
+.reviews {
+    height: 700px;
+    overflow: hidden
+}
 
+.reviews__title {
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.reviews__subtitle {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.reviews__name {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    
+    text-transform: uppercase;
+}
+
+.reviews__job {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.reviews__description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+
+
+    color: rgba(255, 255, 255, 0.502972)
+}
+
+.green__square {
+    background-color:#417505;
+}
+
+.purple__square {
+    background-color:#9013FE;
+}
+
+.slider__reviews {
+    display: flex !important;
+    flex-direction: row-reverse;
+    width: 770px;
+    position: absolute;
+    right: -600px;
+}
+ .slider__item {
+    margin: 0 15px 0 15px;
+    max-height: 384px !important;
+}
 
 
 
