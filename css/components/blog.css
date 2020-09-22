@@ -1,47 +1,66 @@
-.reviews {
-    height: 700px;
+.blog__content {
+    flex-wrap: nowrap;
 }
 
-.reviews__title {
+.blog__title {
+    width: 460px;
+
+    padding: 103px 140px 87px 0;
+
     font-family: 'Inknut Antiqua';
     font-style: normal;
     font-weight: 900;
     font-size: 56px;
     line-height: 64px;
+
     text-transform: uppercase;
+
+    color: #111111;
 }
 
-.reviews__subtitle {
-    font-family: 'Roboto Condensed';
+.blog__subtitle {
+    width: 570px;
+
+    padding-top: 90px;
+
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
 
 
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    color: rgba(17, 17, 17, 0.50133);
 }
 
-.reviews__name {
+.aaa {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+
+.blog__description {
+    width: 350px;
+
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
-    
+
     text-transform: uppercase;
+
+    color: #111111;
 }
 
-.reviews__job {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-}
-
-.reviews__description {
+.date {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: normal;
@@ -49,21 +68,5 @@
     line-height: 32px;
 
 
-
-    color: rgba(255, 255, 255, 0.502972)
-}
-
-.green__square {
-    background-color:#417505;
-}
-
-.purple__square {
-    background-color:#9013FE;
-    margin: 0 30px 0 30px;
-}
-
-.slider__reviews {
-    position: absolute;
-    width: 470px;
-    height: 512px;
+    color: rgba(17, 17, 17, 0.50133);
 }
