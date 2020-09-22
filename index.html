@@ -8,6 +8,42 @@
     <title>Agency</title>
 </head>
 <body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__row row">
+                <a href="#" class="header__logo logo">Agency</a>
+                <nav class="header__nav flex">
+                    <ul class="nav__menu list-style flex">
+                        <li class="nav__item"><a class="nav__link" href="">About</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">Portfolio</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__contant">
+                <h1 class="hero__title">We Create Amazing Sites With Ease</h1>
+                <img class="hero__icon" src="img/hero/Object.png" alt="">
+                <p class="hero__subtitle">A peep at some distant orb has power to raise and purify</p>
+                <div class="sliders1">
+                    <div class="boy">
+                        <img class="hero__boy" src="img/hero/boy.png" alt="">
+                    </div>
+                    <div class="boy">
+                        <img class="hero__boy" src="img/hero/boy.png" alt="">
+                    </div>
+                </div>
+                <img class="hero__points" src="img/hero/Combined Shape.svg" alt="">
+            </div>
+        </div>
+    </section>
+
     <section class="advantage">
         <div class="container">
             <hr class="line">
@@ -33,9 +69,8 @@
                 </div>
             </div>
         </div>
-    </section> <!-- /.advantage -->
+    </section> 
 
-    <!-- feautures -->
     <section class="feautures">
         <div class="container">
             <div class="feautures__content">
@@ -91,7 +126,6 @@
         </div>
     </section>
 
-    <!-- project -->
     <section class="project">
         <div class="container">
             <div class="project__header flex">
@@ -139,11 +173,76 @@
 
         </div>
     </section>
-    
-    
-    
-    
-    
+
+    <section class="reviews">
+        <div class="container reviews__container">
+            <div class="reviews__contant">
+                <h2 class="reviews__title">What Our Clients Say</h2>
+                <p class="reviews__subtitle">Testimonials</p>
+            </div>
+            <div class="slider__reviews">
+                <div class="green__square">
+                    <img class="avatar" src="img/reviews/hallen.png" alt="">
+                    <h3 class="reviews__name">Helena Brauer</h3>
+                    <p class="reviews__job">Apple Inc.</p>
+                    <p class="reviews__description">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.</p>
+                </div>
+                <div class="purple__square">
+                    <img class="avatar" src="img/reviews/Kay.png" alt="">
+                    <h3 class="reviews__name">Kay Totleben</h3>
+                    <p class="reviews__job">Microsoft</p>
+                    <p class="reviews__description">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="container">
+            <div class="social__content">
+                <hr size="2px" color="black">
+                <div class="social__logos flex">
+                    <img class="social__img" src="img/social/atlassian.svg" alt="">
+                    <img class="social__img" src="img/social/slack.svg" alt="">
+                    <img class="social__img" src="img/social/Dropbox.svg" alt="">
+                    <img class="social__img" src="img/social/shopify.svg" alt="">
+                    <img class="social__img" src="img/social/google.svg" alt="">
+                </div>
+                <hr size="2px" color="black">
+            </div>   
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="blog__content flex">
+                <h3 class="blog__title">Our latest blog posts</h3>
+                <p class="blog__subtitle">Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my first intention, to make the being. Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my first intention, to make the being.</p>
+            </div>
+            <div class="blog__row row">
+            <div class="col-4">
+                <img class="blog__img" src="img/blog/Rectangle.png" alt="">
+                <p class="aaa">Design</p>
+                <h4 class="blog__description">Truly it was a great journey and in it I met with many</h4>
+                <p class="date">14 November, 2019</p>
+            </div>
+            <div class="col-4">
+                <img class="blog__img" src="img/blog/blog2.png" alt="">
+                <p class="aaa">Tech</p>
+                <h4 class="blog__description">What looked like a small 
+                    patch of purple grass</h4>
+                <p class="date">14 November, 2019</p>
+            </div>
+            <div class="col-4">
+                <img class="blog__img" src="img/blog/blog3.png" alt="">
+                <p class="aaa">Life</p>
+                <h4 class="blog__description">The roots were revolving small plant</h4>
+                <p class="date">14 November, 2019</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
 
@@ -155,6 +254,42 @@
                 slidesToShow: 2,
                 adaptiveHeight: true
             });
+    </script>
+
+    <script>
+    $('.sliders1').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+    </script>
+
+    <script>
+        $('.slider__reviews').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+            }
+        ]
+        });
     </script>
     
 </body>
