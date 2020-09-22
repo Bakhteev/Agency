@@ -8,6 +8,10 @@
     width: 50%;
 }
 
+.col-4 {
+    width: 33.33%;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
