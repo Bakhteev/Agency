@@ -1,14 +1,24 @@
-.project{
-    height: 768px;
+
+.project__content{
+    margin-top: 73px;
+}
+
+.project__title{
+    width: 435px;
+    padding: 105px 165px 87px 0;
 }
 
 .project__description{
+    max-width: 570px;
+    padding: 105px 0 58px 0;
+    margin:0 ;
+
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    /* or 200% */
+
 
 
     color: rgba(17, 17, 17, 0.50133);
@@ -17,41 +27,17 @@
 .line{
     width: 1170px;
     height: 2px;
-    background-color: #000;
+    background-color: #111111;
 }
 
-.side-bar__ul{
-    list-style: none;
+.side-bar{
+    margin: 0 130px 0 0  ;
 }
 
-.yellow{
-    background-color: #F8E71C;
-}
-
-.red{
-   background-color:#FF564F;
-}
-
-.items__tittle{
-    font-size: 40px;
-    line-height: 48px;  
-}
-
-.items__subtitle{
-    font-family: Roboto Condensed;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 32px;
-    /* identical to box height, or 200% */
-
-    letter-spacing: 3px;
-    text-transform: uppercase;
-
-    color: var(--textBlack);
-}
 
 .sidebar__title{
+    margin-bottom: 37px;
+
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
@@ -65,17 +51,34 @@
     color: var(--textBlack);
 }
 
+.side-bar__ul{
+    list-style: none;
+}
+
 .side-bar__item{
+    padding: 9px 0 7px 0;
+
     width: 170px;
+    height: 48px;
+
+    margin-bottom: 25px;
 
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    transition: translateX 0.3s;
+    transition:  .3s;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
   
 
+}
+
+.side-bar__link{
+    transition: .3s;
 }
 
 .side-bar__item:hover{
@@ -83,8 +86,60 @@
     background-color: var(--textBlack);
 }
 
-.side-bar__item:hover a{
+.side-bar__item:hover .side-bar__link{
     color: var(--white) ;
-    transform: translateX(16px);
+    padding-left: 16px;
 }
+
+
+.yellow{
+    margin: 0 0 45px 0;
+    background-color: #F8E71C;
+}
+
+.red{
+   background-color:#FF564F;
+   margin: 0 0 80px 0;
+}
+
+.col__item{
+    position: relative;
+    max-height: 416px;
+}
+
+.items__text{
+    width: 50%;
+    height: 100%;
+}
+
+.items__tittle{
+    font-size: 40px;
+    line-height: 48px;  
+}
+
+.items__subtitle{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+   
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--textBlack);
+}
+
+
+.items__dog{
+    padding: 0 0 0 383px;
+    transform: translateY(-134px);
+}
+
+.items__girl{
+  padding: 0 0 0 308px;
+  transform: translateY(-98px); 
+}
+
 

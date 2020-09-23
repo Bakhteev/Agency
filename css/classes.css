@@ -1,11 +1,10 @@
 .container{
     max-width: 1170px;
     margin: auto;
-    /* border: 2px solid red; */
 }
 
 .col-3{
-    width: 33.33%;  
+    width: 25%;  
 }
 
 .col-4{
@@ -58,14 +57,11 @@
 }
 
 .btn-red{
-  
-
-   
     background-color: #FF564F;
     color: var(--white); 
 }
 
-.title-black{
+.title{
     font-family: Inknut Antiqua;
     font-style: normal;
     font-weight: 900;
@@ -75,19 +71,13 @@
 
     text-transform: uppercase;
 
-    color: var(--textBlack);
+    
+}
+.title-black{
+ color: var(--textBlack);
 }
 
 .title-light{
-    font-family: Inknut Antiqua;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 64px;
-    
-
-    text-transform: uppercase;
-
     color: var(--white);
 }
 
