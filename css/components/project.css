@@ -1,6 +1,7 @@
 
 .project__content{
     margin-top: 73px;
+    
 }
 
 .project__title{
@@ -51,9 +52,7 @@
     color: var(--textBlack);
 }
 
-.side-bar__ul{
-    list-style: none;
-}
+
 
 .side-bar__item{
     padding: 9px 0 7px 0;
@@ -71,6 +70,8 @@
     transition:  .3s;
 
     cursor: pointer;
+
+    border-radius: 3px;
 
     box-sizing: border-box;
   
@@ -95,24 +96,37 @@
 .yellow{
     margin: 0 0 45px 0;
     background-color: #F8E71C;
+    border-radius: 3px;
 }
 
 .red{
    background-color:#FF564F;
    margin: 0 0 80px 0;
+   border-radius: 3px;
 }
 
 .col__item{
+    
     position: relative;
-    max-height: 416px;
+    width: 870px;
+    height: 416px;
+
+    box-sizing: border-box;
+    
 }
 
 .items__text{
-    width: 50%;
-    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 0 0 57px 48px;
+
+    
+    height: 90%;
 }
 
 .items__tittle{
+    max-width: 281px;
     font-size: 40px;
     line-height: 48px;  
 }
@@ -133,13 +147,18 @@
 
 
 .items__dog{
-    padding: 0 0 0 383px;
-    transform: translateY(-134px);
+    position: absolute;
+    top: -54px;
+    right: 97px
 }
 
 .items__girl{
-  padding: 0 0 0 308px;
-  transform: translateY(-98px); 
+
+    width: 614px;
+    height: 435px;
+    position: absolute;
+    top: -18px;
+    right: -58px
 }
 
 

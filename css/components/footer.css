@@ -1,7 +1,6 @@
 .footer{
-    margin-top: 117px;
+    margin: 182px 0 0 0;
     background-color: #111111;
-    height: 768px;
 }
 
 .footer__sign-up{
@@ -11,8 +10,11 @@
 }
 
 .sign-up__title{
+    max-width: 364px;
     margin: 100px 0 75px 0;
-    width: 50%;
+    
+    font-size: 40px;
+    line-height: 48px;
    
 }
 
@@ -21,7 +23,7 @@
     position: absolute;
     top: 106px;
     z-index: 1;
-    right: 0;
+    right: 100px;
 
     flex-direction: column;
     background: #FF564F;
@@ -74,7 +76,8 @@
 }
 
 .footer__nav{
-    margin-top: 182px;
+    margin: 182px 0 0 0;
+    padding-bottom: 117px;
 }
 
 .footer__logo {
