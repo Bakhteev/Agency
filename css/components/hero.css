@@ -53,6 +53,11 @@
     left: 0;
 }
 
+.boy {
+    border: none;
+    outline: none;
+}
+
 .slick-prev.slick-arrow {
     position: absolute;
     bottom: 0px;
