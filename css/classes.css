@@ -4,14 +4,27 @@
     /* border: 2px solid red; */
 }
 
+.col-3{
+    width: 33.33%;  
+}
+
+.col-4{
+    width: 33.33%;
+}
+
 .col-6{
     width: 50%;
 }
 
+
 .col-4 {
     width: 33.33%;
+.col-8{
+    width: 66.66%;
 }
-
+.col-12{
+    width: 100%;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -22,19 +35,6 @@
 }
 
 .btn{
-
-    
-    width: 170px;
-    height: 48px;
-    border-radius: 3px;
-
-    outline: none;
-    
-    cursor: pointer;
-    
-}
-
-.btn-red{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
@@ -45,6 +45,23 @@
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
+
+    
+    width: 170px;
+    height: 48px;
+    border-radius: 3px;
+
+    outline: none;
+    border: none;
+    
+    cursor: pointer;
+    background-color: var(--white);
+
+    
+}
+
+.btn-red{
+  
 
    
     background-color: #FF564F;
