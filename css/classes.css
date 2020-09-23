@@ -5,7 +5,7 @@
 }
 
 .col-3{
-    width: 33.33%;  
+    width: 25%;  
 }
 
 .col-4{
@@ -85,3 +85,8 @@
 .list-style {
     list-style: none;
 }
+
+.relative {
+    position: relative;
+}
+
