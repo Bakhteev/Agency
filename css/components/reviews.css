@@ -1,18 +1,26 @@
 .reviews {
-    height: 700px;
-    overflow: hidden
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+
 }
 
 .reviews__title {
+    position: absolute;
+    top: 153px;
     font-family: 'Inknut Antiqua';
     font-style: normal;
     font-weight: 900;
     font-size: 56px;
     line-height: 64px;
     text-transform: uppercase;
+
+    width: 455px;
 }
 
 .reviews__subtitle {
+    position: absolute;
+    top: 315px;
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: normal;
@@ -24,8 +32,14 @@
     text-transform: uppercase;
 }
 
+.reviews__avatar {
+    padding: 48px 0 107px 48px;
+}
+
 .reviews__name {
+    padding-left: 154px;
     font-family: 'Roboto Condensed';
+    color:#ffffff;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -35,21 +49,29 @@
 }
 
 .reviews__job {
+    padding: 16px 0 0 154px;
     font-family: 'DM Sans';
+    color:white;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
 }
 
+.reviews__item {
+    position: absolute;
+    top: 56px;
+}
+
 .reviews__description {
+    padding: 0px 48px 48px 48px;
+    width: 374px;
+
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-
-
 
     color: rgba(255, 255, 255, 0.502972)
 }
@@ -63,18 +85,19 @@
 }
 
 .slider__reviews {
+    padding-top: 144px;
     display: flex !important;
     flex-direction: row-reverse;
-    width: 770px;
+    width: 940px;
     position: absolute;
-    right: -600px;
+    right: -650px;
 }
- .slider__item {
+
+.slider__item {
+    border: none;
+    outline: none;
+    width: 470px;
     margin: 0 15px 0 15px;
-    max-height: 384px !important;
+    max-height: 512px !important;
 }
-
-
-
-
 

@@ -170,22 +170,34 @@
     </section>
 
     <section class="reviews">
-        <div class="container reviews__container">
+        <div class="container">
             <div class="reviews__contant">
                 <h2 class="reviews__title">What Our Clients Say</h2>
                 <p class="reviews__subtitle">Testimonials</p>
             </div>
             <div class="slider__reviews">
-                <div class="green__square">
-                    <img class="avatar" src="img/reviews/hallen.png" alt="">
-                    <h3 class="reviews__name">Helena Brauer</h3>
-                    <p class="reviews__job">Apple Inc.</p>
+                <div class="green__square slider__item">
+                    <img class="reviews__avatar " src="img/reviews/hallen.png" alt="">
+                    <h3 class="reviews__name reviews__item">Helena Brauer</h3>
+                    <p class="reviews__job reviews__item ">Apple Inc.</p>
                     <p class="reviews__description">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.</p>
                 </div>
-                <div class="purple__square">
-                    <img class="avatar" src="img/reviews/Kay.png" alt="">
-                    <h3 class="reviews__name">Kay Totleben</h3>
-                    <p class="reviews__job">Microsoft</p>
+                <div class="purple__square slider__item">
+                    <img class="reviews__avatar" src="img/reviews/Kay.png" alt="">
+                    <h3 class="reviews__name  reviews__item">Kay Totleben</h3>
+                    <p class="reviews__job  reviews__item">Microsoft</p>
+                    <p class="reviews__description">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.</p>
+                </div>
+                <div class="green__square slider__item">
+                    <img class="reviews__avatar" src="img/reviews/hallen.png" alt="">
+                    <h3 class="reviews__name  reviews__item">Helena Brauer</h3>
+                    <p class="reviews__job  reviews__item">Apple Inc.</p>
+                    <p class="reviews__description">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.</p>
+                </div>
+                <div class="purple__square slider__item">
+                    <img class="reviews__avatar" src="img/reviews/Kay.png" alt="">
+                    <h3 class="reviews__name  reviews__item">Kay Totleben</h3>
+                    <p class="reviews__job  reviews__item">Microsoft</p>
                     <p class="reviews__description">What looked like a small patch of purple grass, above five feet square, was moving across the sand in their direction. When it came near enough he perceived that it was not grass; there were no blades, but only purple roots. The roots were revolving, for each small plant in the whole patch, like the spokes of a rimless wheel.</p>
                 </div>
             </div>
@@ -219,20 +231,20 @@
                 <img class="blog__img" src="img/blog/Rectangle.png" alt="">
                 <p class="aaa">Design</p>
                 <h4 class="blog__description">Truly it was a great journey and in it I met with many</h4>
-                <p class="date">14 November, 2019</p>
+                <p class="blog__date">14 November, 2019</p>
             </div>
             <div class="col-4">
                 <img class="blog__img" src="img/blog/blog2.png" alt="">
                 <p class="aaa">Tech</p>
                 <h4 class="blog__description">What looked like a small 
                     patch of purple grass</h4>
-                <p class="date">14 November, 2019</p>
+                <p class="blog__date">14 November, 2019</p>
             </div>
             <div class="col-4">
                 <img class="blog__img" src="img/blog/blog3.png" alt="">
                 <p class="aaa">Life</p>
                 <h4 class="blog__description">The roots were revolving small plant</h4>
-                <p class="date">14 November, 2019</p>
+                <p class="blog__date">14 November, 2019</p>
             </div>
             </div>
         </div>
@@ -284,17 +296,15 @@
 
     <script>
         $('.slider__reviews').slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 1,
+        slidesToShow: 2,
         responsive: [
             {
             breakpoint: 768,
             settings: {
                 arrows: false,
-                centerMode: true,
+                centerMode: false,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 2
             }
             },
             {
