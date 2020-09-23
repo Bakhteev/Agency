@@ -2,6 +2,7 @@
     height: 800px;
     overflow: hidden;
     position: relative;
+
 }
 
 .reviews__title {
@@ -99,3 +100,4 @@
     margin: 0 15px 0 15px;
     max-height: 512px !important;
 }
+

@@ -74,9 +74,8 @@
     <section class="feautures">
         <div class="container">
             <div class="feautures__content">
-                <div class="feautures__info flex">
-                    <h2 class="feautures__title title-light">Our Core
-                    Features</h2>
+                <div class="feautures__header flex">
+                    <h2 class="feautures__title title-light title">Our Core Features</h2>
                     <p class="feautures__description">Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my first intention, to make the
                     being. Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my first intention, to make
                     the being.</p>
@@ -88,7 +87,7 @@
                             <h3 class="slider__title">White Label</h3>
                             <p class="slider__discription">Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my
                             first intention, to make the
-                             being.</p>
+                            being.</p>
                         </div>
                     </div>
                     <div class="col-6">
@@ -129,10 +128,8 @@
     <section class="project">
         <div class="container">
             <div class="project__header flex">
-                <h2 class="project__title title-black">Check Our 
-                    Projects</h2>
+                <h2 class="project__title title-black title">Check Our Projects</h2>
                 <p class="project__description">Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my first intention, to make the being. Minuteness of the parts formed a great hindrance to my speed, resolved, contrary to my first intention, to make the being.</p>
-
             </div>
 
             <hr class="line">
@@ -141,21 +138,21 @@
                     <div class="col-3">
                         <h5 class="sidebar__title">Portfolio</h5>
                        <ul class="side-bar__ul">
-                           <li class="side-bar__item">All</li>
-                           <li class="side-bar__item">Design</li>
-                           <li class="side-bar__item">Development</li>
-                           <li class="side-bar__item">Branding</li>
-                           <li class="side-bar__item">Products</li>
+                           <li class="side-bar__item"> <a href="#" class="side-bar__link">All</a></li>
+                           <li class="side-bar__item"> <a href="#" class="side-bar__link">Design</a></li>
+                           <li class="side-bar__item"><a href="#" class="side-bar__link">Development</a></li>
+                           <li class="side-bar__item"> <a href=#" class="side-bar__link">Branding</a></a></li>
+                           <li class="side-bar__item"> <a href="#" class="side-bar__link">Products</a></li>
                        </ul>
                     </div>
                 </aside>
-                <div class="col-8">
-                    <div class="col-12 yellow">
+                <div class="col-8 ">
+                    <div class="col-12 yellow ">
                         <div class="col__item">
                             <h6 class="items__subtitle">Design</h6>
                             <h4 class="items__tittle title-black">Creative
                             Template</h4>
-                            <img src="img/project/dog.png" alt="" class="items__img">
+                            <img src="img/project/dog.png" alt="" class="items__dog">
                         </div>
                     </div>
                     <div class="col-12 red">
@@ -163,14 +160,12 @@
                             <h6 class="items__subtitle">Branding</h6>
                             <h4 class="items__tittle title-light">Amazing Startup
                             </h4>
-                            <img src="img/project/girl.png" alt="" class="items__img">
+                            <img src="img/project/girl.png" alt="" class="items__girl">
                         </div>
                     </div>
                     <button class="btn btn-red">Load more</button>
                 </div>
             </div>
-            
-
         </div>
     </section>
 
@@ -255,6 +250,29 @@
         </div>
     </section>
 
+    <footer class="footer">
+       <div class="container">
+            <div class="footer__sign-up row">
+                <h2 class="title title-light sign-up__title">
+                    Newsletter
+                    Sign Up
+                </h2>
+                
+                <label for="input" class="form flex">
+                    <h6 class="form__title">Get in touch</h6>
+                    <input type="text" placeholder="Your email" id="input" class="input">
+                    <button class="btn btn-red form__btn">Subscribe</button>
+                </label>   
+            </div>
+            <hr class="line-light">
+            <div class="footer__nav">
+                
+            </div>
+            
+                
+       </div>
+    </footer>
+
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
 
@@ -262,7 +280,7 @@
         $('.slider').slick({
                 dots: true,
                 infinite: true,
-                speed: 200,
+                speed: 300,
                 slidesToShow: 2,
                 adaptiveHeight: true
             });

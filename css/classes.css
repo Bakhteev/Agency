@@ -16,9 +16,6 @@
     width: 50%;
 }
 
-
-.col-4 {
-    width: 33.33%;
 .col-8{
     width: 66.66%;
 }
@@ -61,14 +58,11 @@
 }
 
 .btn-red{
-  
-
-   
     background-color: #FF564F;
     color: var(--white); 
 }
 
-.title-black{
+.title{
     font-family: Inknut Antiqua;
     font-style: normal;
     font-weight: 900;
@@ -78,19 +72,13 @@
 
     text-transform: uppercase;
 
-    color: var(--textBlack);
+    
+}
+.title-black{
+ color: var(--textBlack);
 }
 
 .title-light{
-    font-family: Inknut Antiqua;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 64px;
-    
-
-    text-transform: uppercase;
-
     color: var(--white);
 }
 
