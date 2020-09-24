@@ -86,7 +86,7 @@
 
 .slider__reviews {
     padding-top: 144px;
-    display: flex !important;
+    display: flex;
     flex-direction: row-reverse;
     width: 950px;
     position: absolute;
@@ -99,7 +99,7 @@
     outline: none;
     width: 470px;
     margin: 0 15px 0 15px;
-    max-height: 512px !important;
+    max-height: 512px;
 }
 
 .reviews .slick-prev.slick-arrow {

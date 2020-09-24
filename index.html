@@ -40,7 +40,7 @@
                         <img class="hero__boy" src="img/hero/boy.png" alt="">
                     </div>
                     <div class="boy">
-                        <img class="hero__boy" src="img/hero/boy.png" alt="">
+                        <img class="hero__boy" src="img/hero/boy2.png" alt="">
                     </div>
                 </div>
                 <img class="hero__points" src="img/hero/Combined Shape.svg" alt="">
@@ -257,7 +257,7 @@
     <section class="social">
         <div class="container">
             <div class="social__content">
-                <hr size="2px" color="black">
+                <hr class="line">
                 <div class="social__logos flex">
                     <img class="social__img" src="img/social/atlassian.svg" alt="">
                     <img class="social__img" src="img/social/slack.svg" alt="">
@@ -265,8 +265,9 @@
                     <img class="social__img" src="img/social/shopify.svg" alt="">
                     <img class="social__img" src="img/social/google.svg" alt="">
                 </div>
-                <hr size="2px" color="black">
-            </div>
+
+                <hr class="line">
+            </div>   
         </div>
     </section>
 
@@ -389,22 +390,18 @@
     <script>
         $('.slider__reviews').slick({
         slidesToShow: 2,
+        infinite: true,
         responsive: [
             {
             breakpoint: 768,
             settings: {
-                arrows: false,
-                centerMode: false,
-                centerPadding: '40px',
-                slidesToShow: 2
+                slidesToShow: 1
             }
             },
             {
-            breakpoint: 480,
+            breakpoint: 320,
             settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
+
                 slidesToShow: 1
             }
             }
