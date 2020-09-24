@@ -1,7 +1,6 @@
 .footer{
-    margin-top: 117px;
+    margin: 182px 0 0 0;
     background-color: #111111;
-    height: 768px;
 }
 
 .footer__sign-up{
@@ -11,17 +10,20 @@
 }
 
 .sign-up__title{
+    max-width: 364px;
     margin: 100px 0 75px 0;
-    width: 50%;
+    
+    font-size: 40px;
+    line-height: 48px;
    
 }
 
 .form{
     
     position: absolute;
-    top: 95px;
+    top: 106px;
     z-index: 1;
-    right: 0;
+    right: 100px;
 
     flex-direction: column;
     background: #FF564F;
@@ -74,8 +76,73 @@
 }
 
 .footer__nav{
-    position: relative;
+    margin: 182px 0 0 0;
+    padding-bottom: 117px;
 }
+
+.footer__logo {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: var(--white);
+}
+
+
+.agency__ul{
+    margin-top: 35px;
+}
+
+.item__title{
+    margin-bottom: 35px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--white);
+}
+
+.agency__ul, .addres__ul, .menu__ul{
+    list-style: none;
+}
+
+.agency__item, .addres__item{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgba(255, 255, 255, 0.502972);
+}
+
+.menu__link, .addres__link{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+
+    color: var(--white);
+}
+
+
+
+.facebook, .twitter, .instagram{
+    padding-right: 8px ;
+}
+
+
 
 
 

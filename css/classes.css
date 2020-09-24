@@ -1,11 +1,10 @@
 .container{
     max-width: 1170px;
     margin: auto;
-    /* border: 2px solid red; */
 }
 
 .col-3{
-    width: 33.33%;  
+    width: 25%;  
 }
 
 .col-4{
@@ -85,3 +84,18 @@
 .list-style {
     list-style: none;
 }
+
+
+.w870{
+    width: 870px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+
