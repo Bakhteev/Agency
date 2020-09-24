@@ -151,36 +151,65 @@
                     <div class="col-4">
                         <h5 class="sidebar__title">Portfolio</h5>
                         <ul class="side-bar__ul list-style">
-                            <li class="side-bar__item"> <a href="#" class="side-bar__link">All</a></li>
-                            <li class="side-bar__item"> <a href="#" class="side-bar__link">Design</a></li>
-                            <li class="side-bar__item"><a href="#" class="side-bar__link">Development</a></li>
-                            <li class="side-bar__item"> <a href=#" class="side-bar__link">Branding</a></a></li>
-                            <li class="side-bar__item"> <a href="#" class="side-bar__link">Products</a></li>
+                            <li class="sideBarLinks" onclick="openCity(event, 'all')" id="defaultOpen"> All</li>
+                            <li class="sideBarLinks"onclick="openCity(event, 'design')">Design</li>
+                            <li class="sideBarLinks"onclick="openCity(event, 'development')">Development</li>
+                            <li class="sideBarLinks"onclick="openCity(event, 'branding')">Branding</li>
+                            <li class="sideBarLinks"onclick="openCity(event, 'products')">Products</li>
                         </ul>
                     </div>
                 </aside>
                 <div class="col-8  ">
-                    <div class="col-12 yellow w870 ">
-                        <div class="col__item">
-                            <div class="items__text flex">
-                                <h6 class="items__subtitle">Design</h6>
-                                <h4 class="items__tittle title-black title">Creative
-                                    Template</h4>
+                    <div id="all">
+                        <div class="tabcontent" id="design">
+                            <div class="col-12 w870 ">
+                                <div class="col__item yellow">
+                                    <div class="items__text flex">
+                                        <h6 class="items__subtitle">Design</h6>
+                                        <h4 class="items__tittle title-black title">Creative
+                                            Template</h4>
+                                    </div>
+                                    <img src="img/project/dog.png" alt="" class="items__dog">
+                                </div>
                             </div>
-                            <img src="img/project/dog.png" alt="" class="items__dog">
                         </div>
-                    </div>
-                    <div class="col-12 red w870 flex">
-                        <div class="col__item">
-                            <div class="items__text flex">
-                                <h6 class="items__subtitle">Branding</h6>
-                                <h4 class="items__tittle title-light title">Amazing Startup
-                                </h4>
+                        <div class="tabcontent" id="development">
+                            <div class="col-12  w870 flex">
+                                <div class="col__item purple">
+                                    <div class="items__text flex">
+                                        <h6 class="items__subtitle">development</h6>
+                                        <h4 class="items__tittle title-light title">Amazing Startup
+                                        </h4>
+                                    </div>
+                                    <img src="img/project/girl.png" alt="" class="items__girl">
+                                </div>
                             </div>
-                            <img src="img/project/girl.png" alt="" class="items__girl">
                         </div>
-                    </div>
-                    <div class="col-12 w870 text-align">
+                        <div class="tabcontent" id="branding">
+                            <div class="col-12 w870 flex">
+                                <div class="col__item red">
+                                    <div class="items__text flex">
+                                        <h6 class="items__subtitle">Branding</h6>
+                                        <h4 class="items__tittle title-light title">Amazing Startup
+                                        </h4>
+                                    </div>
+                                    <img src="img/project/girl.png" alt="" class="items__girl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabcontent" id="products">
+                            <div class="col-12 w870 flex" id="products">
+                                <div class="col__item sand">
+                                    <div class="items__text flex">
+                                        <h6 class="items__subtitle">Products</h6>
+                                        <h4 class="items__tittle title-light title">Amazing Startup
+                                        </h4>
+                                    </div>
+                                    <img src="img/project/girl.png" alt="" class="items__girl">
+                                </div>
+                        </div>
+                    </div>    
+                    <div class="col-12 w870 text-align m80px">
                         <button class="btn btn-red">Load more</button>
                     </div>
                 </div>
@@ -335,6 +364,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/sideBarTAb.js"></script>
 
     <script>
         $('.slider').slick({
