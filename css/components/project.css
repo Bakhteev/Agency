@@ -1,14 +1,21 @@
+.project{
+    margin: 0 0 112px 0;
+}
 
 .project__content{
-     margin-top: 73px;
+    margin-top: 73px;
+    
 }
 
 .project__title{
-    padding: 135px 228px 135px 0;
+    width: 435px;
+    padding: 105px 165px 87px 0;
 }
 
 .project__description{
-    padding: 121px 0 133px 0;
+    max-width: 570px;
+    padding: 105px 0 58px 0;
+    margin:0 ;
 
     font-family: DM Sans;
     font-style: normal;
@@ -48,11 +55,11 @@
     color: var(--textBlack);
 }
 
-.side-bar__ul{
-    list-style: none;
-}
 
-.side-bar__item{
+
+.sideBarLinks{
+    padding: 9px 0 7px 0;
+
     width: 170px;
     height: 48px;
 
@@ -64,41 +71,71 @@
     font-size: 16px;
     line-height: 32px;
     transition:  .3s;
+
+    cursor: pointer;
+
+    border-radius: 3px;
+
+    box-sizing: border-box;
   
 
 }
 
-.side-bar__link{
-    transition: .3s;
-}
 
-.side-bar__item:hover{
+.sideBarLinks:hover{
     color: var(--white);
     background-color: var(--textBlack);
-}
-
-.side-bar__item:hover .side-bar__link{
-    color: var(--white) ;
     padding-left: 16px;
 }
 
 
+.yellow, .red, .purple, .sand{
+    border-radius: 3px;
+
+}
+
+
 .yellow{
-    margin: 0 0 45px 0;
     background-color: #F8E71C;
 }
 
 .red{
    background-color:#FF564F;
-   margin: 0 0 80px 0;
+}
+
+.purple{
+    background-color: #9013FE;
+}
+
+
+.sand{
+    background-color: #ebb551;
 }
 
 .col__item{
+
+    margin: 0 0 45px 0;
+    
     position: relative;
-    max-height: 416px;
+    width: 870px;
+    height: 416px;
+
+    box-sizing: border-box;
+    
+}
+
+.items__text{
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 0 0 57px 48px;
+
+    
+    height: 90%;
 }
 
 .items__tittle{
+    max-width: 281px;
     font-size: 40px;
     line-height: 48px;  
 }
@@ -109,7 +146,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    /* identical to box height, or 200% */
+   
 
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -119,13 +156,21 @@
 
 
 .items__dog{
-    padding: 0 0 0 383px;
-    transform: translateY(-134px);
+    position: absolute;
+    top: -54px;
+    right: 97px
 }
 
 .items__girl{
-  padding: 0 0 0 308px;
-  transform: translateY(-98px); 
+
+    width: 614px;
+    height: 435px;
+    position: absolute;
+    top: -18px;
+    right: -58px
 }
 
+.m80px{
+    margin: 80px 0 0 0 ;
+}
 
