@@ -85,6 +85,7 @@
     list-style: none;
 }
 
+
 .w870{
     width: 870px;
 }
@@ -92,3 +93,9 @@
 .text-align{
     text-align: center;
 }
+
+.relative {
+    position: relative;
+}
+
+
