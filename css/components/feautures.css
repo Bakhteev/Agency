@@ -1,11 +1,15 @@
 .feautures{
-    max-height: 1080px ;
+    min-height: 880px;
     background: #111111;
 }
 
+
+
 .feautures__content{
- 
     background: #111111;
+}
+
+.feautures__header{
     justify-content: space-between;
 }
 
@@ -109,7 +113,12 @@
 
 
 
-.feautures .slick-slide{
+ .slick-slide{
     outline: none !important; 
-    border:none;
+    border:none !important; 
+}
+
+.feautures .slick-initialized .slick-slide{
+    outline: none !important;
+    border: none !important;
 }
