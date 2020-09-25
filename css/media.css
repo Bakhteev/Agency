@@ -1,4 +1,8 @@
 @media screen and (max-width: 375px) {
+    .container {
+        overflow-x: hidden;
+    }
+    
     .line {
         width: 329px;
     }
