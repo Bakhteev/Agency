@@ -1,4 +1,8 @@
-@media screen and (max-width: 376px){
+@media screen and (max-width: 578px){
+    .hero{
+        overflow-x: hidden;
+    }
+    
     .feautures{
         max-height: 1072px;
     }
