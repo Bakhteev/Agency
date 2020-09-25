@@ -1,7 +1,4 @@
 @media screen and (max-width: 375px) {
-    .container {
-        overflow-x: hidden;
-    }
     
     .line {
         width: 329px;
@@ -13,6 +10,10 @@
     
     .nav__menu {
         display: none;
+    }
+
+    .hero {
+        overflow-x: hidden;
     }
 
     .hero__title {
