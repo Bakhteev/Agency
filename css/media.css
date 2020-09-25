@@ -16,6 +16,10 @@
         overflow-x: hidden;
     }
 
+    .hero {
+        padding-top: 70px;
+    }
+
     .hero__title {
         width: 312px;
         height: 192px;
