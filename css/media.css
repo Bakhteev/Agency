@@ -1,10 +1,10 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 579px) {
     
     .line {
         width: 329px;
     }
 
-    .header__logo {
+    .header__row .header__logo {
         padding-left:23px;
     }
     
