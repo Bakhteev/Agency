@@ -1,20 +1,28 @@
 .feautures{
-    height: 1080px;
+    min-height: 880px;
     background: #111111;
 }
 
+
+
 .feautures__content{
- 
     background: #111111;
+}
+
+.feautures__header{
     justify-content: space-between;
 }
 
 .feautures__title{
-    padding: 135px 228px 135px 0;
+    padding: 135px 0 135px 0;
+    max-width: 372px;
+    width: 50%;
 }
 
 .feautures__description{
     padding: 121px 0 133px 0;
+    max-width: 570px;
+    width: 50%;
 
     font-family: DM Sans;
     font-style: normal;
@@ -103,8 +111,14 @@
     color: #9013FE;
 }
 
+
+
+ .slick-slide{
+    outline: none !important; 
+    border:none !important; 
 }
 
-.feautures .slick-slide{
-    outline: none;
+.feautures .slick-initialized .slick-slide{
+    outline: none !important;
+    border: none !important;
 }

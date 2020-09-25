@@ -8,11 +8,13 @@
 }
 
 .project__title{
-    width: 435px;
+    max-width: 435px;
+    width: 50%;
     padding: 105px 165px 87px 0;
 }
 
 .project__description{
+    width: 50%;
     max-width: 570px;
     padding: 105px 0 58px 0;
     margin:0 ;
@@ -125,6 +127,7 @@
 }
 
 .items__text{
+    position: relative;
     flex-direction: column;
     justify-content: flex-end;
 
@@ -135,12 +138,16 @@
 }
 
 .items__tittle{
+    position: absolute;
     max-width: 281px;
     font-size: 40px;
     line-height: 48px;  
 }
 
 .items__subtitle{
+    position: absolute;
+    left: 48px;
+    bottom: 164px;
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: normal;
@@ -168,6 +175,10 @@
     position: absolute;
     top: -18px;
     right: -58px
+}
+
+.project__btn{
+    width: 870px;
 }
 
 .m80px{

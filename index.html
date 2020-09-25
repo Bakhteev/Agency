@@ -82,7 +82,7 @@
     <section class="feautures">
         <div class="container">
             <div class="feautures__content">
-                <div class="feautures__header flex">
+                <div class="feautures__header row">
                     <h2 class="feautures__title title-light title">Our Core Features</h2>
                     <p class="feautures__description">Minuteness of the parts formed a great hindrance to my speed,
                         resolved, contrary to my first intention, to make the
@@ -141,7 +141,7 @@
 
     <section class="project">
         <div class="container">
-            <div class="project__header flex">
+            <div class="project__header row">
                 <h2 class="project__title title-black title">Check Our Projects</h2>
                 <p class="project__description">Minuteness of the parts formed a great hindrance to my speed, resolved,
                     contrary to my first intention, to make the being. Minuteness of the parts formed a great hindrance
@@ -149,9 +149,9 @@
             </div>
 
             <hr class="line" width="1170px">
-            <div class="project__content flex">
+            <div class="project__content row">
                 <aside class="side-bar">
-                    <div class="col-4">
+                    <div class="col-3">
                         <h5 class="sidebar__title">Portfolio</h5>
                         <ul class="side-bar__ul list-style">
                             <li class="sideBarLinks" onclick="openCity(event, 'all')" id="defaultOpen"> All</li>
@@ -162,7 +162,7 @@
                         </ul>
                     </div>
                 </aside>
-                <div class="col-8 ">
+                <div class="col-9">
                     <div id="all">
                         <div class="tabcontent" id="design">
                             <div class="col-12 w870 ">
@@ -212,7 +212,7 @@
                                 </div>
                         </div>
                     </div>    
-                    <div class="col-12 w870 text-align m80px">
+                    <div class="col-12  text-align m80px project__btn">
                         <button class="btn btn-red">Load more</button>
                     </div>
                 </div>
@@ -357,8 +357,8 @@
                 <div class="col-3">
                     <div class="col__social flex">
                         <a href="#"><img src="img/footer/facebook.svg" alt="" class="facebook"></a>
-                        <a href="#"><img src="img/footer/twitter.svg" alt="" class="twitter"></a>
-                        <a href="#"><img src="img/footer/instagram.svg" alt="" class="instagram"></a>
+                        <a href="https://www.instagram.com/_.just_b/?hl=ru" target="blank"><img src="img/footer/twitter.svg" alt="" class="instagram"></a>
+                        <a href=""><img src="img/footer/instagram.svg" alt="" class="twitter"></a>
                     </div>
                 </div>
             </div>
@@ -377,7 +377,15 @@
             infinite: true,
             speed: 300,
             slidesToShow: 2,
-            adaptiveHeight: true
+            adaptiveHeight: true,
+            responsive: [
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            ]
         });
     </script>
 
@@ -386,6 +394,7 @@
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1
+            
         });
     </script>
 
