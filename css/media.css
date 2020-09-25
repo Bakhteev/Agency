@@ -1,5 +1,4 @@
 @media screen and (max-width: 375px) {
-    
     .line {
         width: 329px;
     }
@@ -47,6 +46,57 @@
     .hero__points {
         left: 268px;
         top: 382px;
+    }
+
+    .advantage {
+        margin-bottom: 112px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .col__text {
+        margin: 315px 0 0 23px;
+    }
+
+    .img__boy {
+        width:454px;
+        height:340px;
+        top: -9px;
+        right: -412px;
+    }
+
+    .dots-bottom {
+        display: none;
+    }
+
+    .dots-top {
+        top: -26px;
+        left: 16px;
+    }
+    
+    .advantages__title{
+        width: 321px;
+        font-size: 40px;
+    }
+
+    .advantages__subtitle {
+        width: 330px;
+    }
+
+    .advantages__description{
+        width: 329px;
+    }
+
+    .advantages__btn {
+        margin-right: 4px;
+    } 
+
+    .buttons {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 320px;
     }
 
     .reviews {
@@ -125,4 +175,40 @@
         padding: 69px 0 0 23px;
     }
 
+    .col-3 {
+        width: 100%;
+    }
+
+    .sign-up__title {
+        width: 213px;
+        padding-left: 23px;
+    }
+
+    .form {
+        top: 285px;
+        right: 25px;
+        width: 329px;
+        height: 288px;
+        justify-content: center;
+    }
+
+    .line-light {
+        display: none;
+    }
+
+    #input {
+        max-width: 235px;
+    }
+
+    .form__btn {
+        width: 235px;
+    }
+
+    .footer__nav {
+        margin: 400px 0 0 23px;
+    }
+    
+    .col__agency,.col__address,.col__menu,.col__social {
+        padding-bottom: 80px;
+    }
 }
